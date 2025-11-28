@@ -1,0 +1,16 @@
+:root { font-family: system-ui, Arial, sans-serif; }
+body { margin: 20px; background: #f7f7f8; color: #111; }
+.container { max-width: 720px; margin: 0 auto; }
+h1 { margin-bottom: 12px; }
+.tabs { display:flex; gap:8px; margin-bottom:12px; }
+.tab { padding: 8px 12px; border-radius: 8px; border: none; background: #fff; cursor:pointer; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.tab.active { background: #111; color: white; }
+.card { background: white; padding: 16px; border-radius: 10px; box-shadow: 0 6px 20px rgba(0,0,0,0.04); }
+.row { display:flex; gap:8px; align-items:center; margin-bottom:12px; }
+input, select { padding:8px; border-radius:6px; border:1px solid #ddd; }
+button { padding:8px 12px; border-radius:8px; border:none; cursor:pointer; background:#111; color:white; }
+.info { color:#666; margin-top:8px; }
+.error { margin-top:8px; color:#b00020; }
+.result { margin-top:10px; font-weight:600; }
+.footer { margin-top:18px; color:#666; font-size:14px; text-align:center; }
+.quote blockquote { font-style: italic; margin: 8px 0; }
